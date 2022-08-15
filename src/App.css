@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+
+.center {
+margin: auto;
+width: 50%;
+border: 3px solid green;
+padding: 10px;
+}
+
+h1{
+  color: red;
+text-align: center;
+/* align-content: left; */
+  border-block-end-color: yellowgreen;
+  border-color: blue;
+  
+}
+img{
+border-radius: 10px 10px 0px 0px;
+position: absolute;
+width: 317px;
+height: 317px;
+left: 116px;
+top: 44px;
+
+
+}
+
+.main-card{
+position: absolute;
+width: 550px;
+height: 868px;
+left: 664px;
+top: 53px;
+border-radius: 16px;
+background:darkgray;
+/* #23252C */
+}
+
+.nameh1{
+  position: absolute;
+width: 178.06px;
+height: 25.81px;
+left: 186px;
+top: 382px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.nameh3{
+  position: absolute;
+  width: 178.06px;
+  height: 20.19px;
+  left: 186px;
+  top: 429px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+.nameweb{
+  position: absolute;
+width: 228px;
+height: 16px;
+left: 161px;
+top: 437px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #F5F5F5;
+}
+.buttonlinked{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+position: absolute;
+width: 115px;
+height: 34px;
+left: 293px;
+top: 489px;
+
+background: #297FE5;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(12, 10, 99, 0.05);
+border-radius: 16px;
+}
+.buttonlinked img{
+
+  width: 16px;
+height: 16px;
+
+position: absolute;
+width: 20px;
+height: 24px;
+left: 13px;
+top: 2px;
+/* Inside auto layout */
+
+flex: auto;
+order: 0;
+flex-grow: 0;
+}
+.linkedtitle{
+  width: 57px;
+height: 16px;
+
+/* text-sm/leading-4/font-medium */
+padding: 0px 1px 9px 21px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+color: #FFFFFF;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.mailbutton{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+position: absolute;
+width: 115px;
+height: 34px;
+left: 151px;
+top: 489px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/300 */
+
+/* border: 1px solid #D8888D5DB; */
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+}
+
+.mailbutton img{
+
+  width: 16px;
+height: 16px;
+
+position: absolute;
+width: 20px;
+height: 24px;
+left: 13px;
+top: 2px;
+/* Inside auto layout */
+
+flex: auto;
+order: 0;
+flex-grow: 0;
+}
+.mailbutton sapn{
+width: 36px;
+height: 16px;
+/* text-sm/leading-4/font-medium */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+/* gray/700 */
+color: #374151;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.body{
+  /* padding: 40px ,20px , 40 ,40 ; */
+  padding: 2px 3px 0px 0px;
+  position: absolute;
+width: 480px;
+height: 200px;
+overflow: auto; /*scroll*/
+left: 30px;
+top: 528px;
+}
+
+.body h2a{
+position: absolute;
+width: 282.71px;
+height: 21px;
+left: 151px;
+top: 535px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+color: #2B283A;
+}
+.footer{
+  
+  background-color: #d5d4d8;
+  border-radius: 0px 0px 10px 10px;
+  height: 64px;
+  left: 116px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 760px;
+  width: 317px;
+}
+.image1{
+  background-color: transparent;
+  height: 35px;
+  left: 19px;
+  mix-blend-mode: normal;
+  position: relative; 
+  top: 30%;
+  width: 45px;
+}
+.image2{
+  background-color: transparent;
+  height: 35px;
+  left: 59px;
+  mix-blend-mode: normal;
+  position: relative; 
+  top: 30%;
+  width: 45px;
+}
+.image3{
+  background-color: transparent;
+  height: 35px;
+  left: 89px;
+  mix-blend-mode: normal;
+  position: relative; 
+  top: 30%;
+  width: 45px;
+}
+.image4{
+  background-color: transparent;
+  height: 35px;
+  left: 109px;
+  mix-blend-mode: normal;
+  position: relative; 
+  top: 30%;
+  width: 45px;
+}
